@@ -37,13 +37,15 @@ const Header = () => {
                       <input type="search" placeholder='Search in OnlineStore' className='bg-white rounded-xl absolute top-0 right-0 bottom-0 left-0 w-[100%] text-[14px] p-[13px_19px] leading-[1] tracking-tight shadow-none border-none' tabIndex={1} value="" />
                     </div>
                     <div className='absolute right-0 top-0 w-[45px]'>
-                      <button className='w-[50px] h-[28px] border-none rounded-lg shadow-none p-[10px_12px] top-[5px] relative right-[11px] bg-contain bg-center bg-no-repeat bg-purple-200 box-border align-top items-center'><Search  className='align-top text-primary items-center'/>
+                      <button className='flex w-[50px] h-[28px] border-none rounded-lg shadow-none p-[10px_12px] top-[5px] relative right-[11px] bg-contain bg-center bg-no-repeat bg-purple-200 box-border align-top items-center justify-center'><Search size={18} color='#6A1B9A'/>
                       </button>
                     </div>
                   </div>
                 </form>
               </div>
-              <div loginContainer></div>
+              <div className='loginContainer text-white text-[12px] inline-block h-[38px] absolute ml-[12px] box-border z-[1111] font-normal'>
+                <ul className='flex float-left relative p-0 mr-[25px] mt-0 mb-0 box-content'></ul>
+              </div>
               <div nav-cart></div>
             </div>
           </div>
